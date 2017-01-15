@@ -7,7 +7,8 @@ Checks if a variable is defined
 	'typeof ' + identifier + ' !== "undefined"'
 
 Example: 
-	~~~js
+
+~~~js
 	const isDefined = require('is-defined-eval');
 
 	var exportsExists = isDefined('exports');
@@ -15,6 +16,6 @@ Example:
  
 	var windowExists = isDefined('window');
 	console.log(windowExists); // => false
-	~~~
+~~~
 
 License MIT
