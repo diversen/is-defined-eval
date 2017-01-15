@@ -1,0 +1,26 @@
+{
+  "name": "is-defined-eval",
+  "version": "1.0.0",
+  "description": "Evaluates is-defined expression and returns the value of the evaluation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diversen/is-defined-eval.git"
+  },
+  "keywords": [
+    "eval",
+    "is-defined"
+  ],
+  "author": "dennis iversen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diversen/is-defined-eval/issues"
+  },
+  "homepage": "https://github.com/diversen/is-defined-eval#readme",
+  "dependencies": {
+    "is-defined": "^1.0.0"
+  }
+}
