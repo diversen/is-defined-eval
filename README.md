@@ -11,13 +11,17 @@ Consider it as a shortcut to the above.
 Example (on nodejs in console): 
 
 ~~~js
-	const isDefined = require('is-defined-eval');
 
-	var exportsExists = isDefined('exports');
-	console.log(exportsExists); // => true
- 
-	var windowExists = isDefined('window');
-	console.log(windowExists); // => false
+const isDefined = require('is-defined-eval');
+
+var exportsExists = isDefined('exports');
+console.log(exportsExists); // => true
+
+var windowExists = isDefined('window');
+console.log(windowExists); // => false
+
+var documentExists = isDefined('document');
+console.log(documentExists); // => false
 ~~~
 
 License MIT
