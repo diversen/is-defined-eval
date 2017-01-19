@@ -1,10 +1,12 @@
 # is-defined-eval
 
-Checks if a variable is defined
+Checks if a variable is defined.
 
 (Eval)uates a variable `identifier` like this: 
 
 	'typeof ' + identifier + ' !== "undefined"'
+
+Consider it as a shortcut to the above.
 
 Example (on nodejs in console): 
 
