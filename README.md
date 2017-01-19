@@ -6,7 +6,7 @@ Checks if a variable is defined
 
 	'typeof ' + identifier + ' !== "undefined"'
 
-Example: 
+Example (on nodejs in console): 
 
 ~~~js
 	const isDefined = require('is-defined-eval');
